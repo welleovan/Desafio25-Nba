@@ -1,0 +1,26 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* Variáveis CSS */
+:root {
+  --font-family: 'Inter', sans-serif;
+  --color-text: #ffffff;
+  --color-background: #000000;
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos globais */
+body {
+  font-family: var(--font-family);
+  color: var(--color-text);
+  background-color: var(--color-background);
+
+}
+
+/* Outros estilos globais e utilitários podem ser adicionados aqui */

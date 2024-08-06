@@ -1,0 +1,159 @@
+#scoreboard {
+  margin: 80px 0 112px 0;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.score_1 {
+  background: linear-gradient(to bottom right, #5b2b82 50%, #fdba26 50%);
+  height: 261px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 22px;
+}
+
+.score_1 h5 {
+  text-align: center;
+}
+
+.score_2 {
+  background: linear-gradient(to bottom right, #008248 50%, #f58426 50%);
+  height: 261px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 50px;
+  gap: 22px;
+}
+
+.score_2 h5 {
+  text-align: center;
+}
+
+.score_logo_kings {
+  width: 84.57px;
+  height: 90px;
+  margin-bottom: 11px;
+}
+
+.score_logo_warriors {
+  width: 85px;
+  height: 88px;
+  margin-bottom: 11px;
+}
+
+.times {
+  display: flex;
+  justify-content: space-around;
+}
+
+.score_time {
+  font-size: 32px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.time_timer {
+  text-align: center;
+  padding-top: 25px;
+}
+
+.score_game {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.score_logo_kicks {
+  width: 108px;
+  height: 84px;
+}
+
+.score_logo_celtics {
+  width: 84.57px;
+  height: 84px;
+}
+
+.players_table_container {
+  background: linear-gradient(to bottom, #0E0E0E, #000000);
+  padding: 32px;
+  height: 316px;
+}
+
+.players_table {
+  width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+  height: 100%;
+}
+
+.players_table th, td {
+  font-weight: 500;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.players_table img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.players_perfil {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.players_perfil p {
+  margin: 0;
+}
+
+.players_perfil_Aaron {
+  background: url("../../assets/images/Aaron.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.players_perfil_Curry {
+  background: url("../../assets/images/Curry.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.players_perfil_Jayson {
+  background: url("../../assets/images/Jayson.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.players_perfil_Jalen {
+  background: url("../../assets/images/Jalen.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
